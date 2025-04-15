@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEDx JP Stevens High</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero">
+    <h1><span class="tedx">TEDx</span> JP Stevens High</h1>
+    <p class="subtitle">Presents the Experience</p>
+    <h2 class="theme">Change & Progress</h2>
+    <div class="info-box">
+      <p><strong>CAUCUS</strong></p>
+      <p>John P. Stevens High School · Edison, NJ</p>
+      <p><em>February 27th, 2025</em></p>
+    </div>
+  </header>
+
+  <section class="about">
+    <h2>About TEDx and TED</h2>
+    <div class="about-text">
+      <h3>What is TEDx?</h3>
+      <p>
+        TEDx events are electrifying hubs of inspiration. Independently organized under the TED brand, they bring together curious minds and bold voices to share game-changing ideas. Our TEDxJP Stevens High event merges powerful TED Talks and live speakers to create moments that stick—fueling conversations long after the lights dim.
+      </p>
+      <p>Curious? <a href="https://www.ted.com/about/programs-initiatives/tedx-program" target="_blank">Dive deeper</a></p>
+    </div>
+  </section>
+
+  <section class="about">
+    <h3>What is TED?</h3>
+    <p>
+      TED began in 1984, where tech met entertainment and design. Now, it's a global force—fueling curiosity, wonder, and the pursuit of knowledge. With talks that challenge perspectives and spark action, TED empowers millions to rethink the world around them. And through initiatives like TED-Ed, Countdown, and The Audacious Project, the impact keeps growing.
+    </p>
+  </section>
+
+  <section class="speakers">
+    <h2 class="slide-left">Why This Night Matters</h2>    
+    
+    <p class="zoom-in">Change doesn't happen in silence—it begins with a voice...On February 27th, that voice could come from anyone: a high schooler with a bold dream, a student decoding the future, a leader in the making. 
+      <br><br>
+      Join us as JPS's finest speakers take the mic to spark curiosity, action, and unity. It’s more than a night—it’s a movement.
+    </p>
+  </section>
+
+  <section class="details">
+    <h2>Event Details</h2>
+    <ul>
+      <li><strong>Date:</strong> Thursday, February 27, 2025</li>
+      <li><strong>Time:</strong> 6:00 PM – 9:00 PM</li>
+      <li><strong>Location:</strong> The JPS Café · Edison, NJ</li>
+    </ul>
+  </section>
+
+  <section class="schedule">
+    <h2>Night Schedule</h2>
+    <ul>
+      <li><strong>6:00 PM:</strong> Doors Open & Networking</li>
+      <li><strong>6:25 PM:</strong> Doors Close</li>
+      <li><strong>6:30 PM:</strong> Event Kickoff</li>
+      <li><strong>6:45 PM – 7:00 PM:</strong> First Break (Snacks + Meet the Speakers)</li>
+      <li><strong>7:45 PM – 8:25 PM:</strong> Second Break (Photo Booth + Games)</li>
+      <li><strong>9:00 PM:</strong> Curtains & Closing Remarks</li>
+    </ul>
+  </section>
+
+  <section class="board">
+    <h2>Meet the Visionaries</h2>
+    <p>Behind every great event is a team of thinkers, doers, and creators. Get to know the students making TEDxJP Stevens High unforgettable.</p>
+    <!-- Optional: Add animated board cards later -->
+  </section>
+
+  <footer>
+    <p>📩 <a href="mailto:tedxjps@gmail.com">tedxjps@gmail.com</a></p>
+    <p class="footer-logo">TEDxJPS</p>
+    <p><em>This independent TEDx event is operated under license from TED.</em></p>
+  </footer>
+  <script src="scroll-fade.js"></script>
+  <script>
+    // Sparkle trail script
+    const sparkleTrail = (e) => {
+      const sparkle = document.createElement("div");
+      sparkle.classList.add("sparkle");
+      sparkle.style.left = `${e.clientX}px`;
+      sparkle.style.top = `${e.clientY}px`;
+      document.body.appendChild(sparkle);
+      setTimeout(() => sparkle.remove(), 1000);
+    };
+    
+    document.addEventListener("mousemove", sparkleTrail);
+    </script>
+  <button class="button-glow">RSVP Now</button>
+</body>
